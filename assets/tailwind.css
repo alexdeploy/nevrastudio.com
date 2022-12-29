@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: "Courier";
+    src: url("./assets/fonts/Courier_new_regular.ttf") format('truetype');
+}
+
+@font-face {
+    font-family: "Futura Book";
+    src: url("./assets/fonts/Futura_book_regular.otf") format('opentype');
+}
+
+@font-face {
+    font-family: "Futura Heavy";
+    src: url("./assets/fonts/Futura_heavy.otf") format('opentype');
+}

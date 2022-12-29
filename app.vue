@@ -1,5 +1,8 @@
 <template>
   <div>
-    <NuxtWelcome />
+    <AppHeader />
+    <!-- <NuxtPage /> -->
+    <CommingSoon />
+    <AppFooter />
   </div>
 </template>
