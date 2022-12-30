@@ -7,9 +7,9 @@ export default defineNuxtConfig({
                 { charset: 'utf-8' },
                 { name: 'viewport', content: 'width=device-width, initial-scale=1' },
                 { hid: 'description', name: 'description', content: 'Nevra Studio' },
-                { hid: 'og:title', property: 'og:title', content: 'nevra studio' },
-                { hid: 'og:description', property: 'og:description', content: 'Nevra Studio - Interior Design' },
-                { hid: 'og:image', property: 'og:image', content: 'icon.png' }
+                { hid: 'og:title', property: 'og:title', content: 'nevra studio' }, /* Share card title */
+                { hid: 'og:description', property: 'og:description', content: 'Nevra Studio - Interior Design' }, /* Share card description */
+                { hid: 'og:image', property: 'og:image', content: 'og-image.jpg' } /* Share card image */
             ]
         }
     },
