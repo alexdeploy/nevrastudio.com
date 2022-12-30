@@ -16,3 +16,7 @@
     font-family: "Futura Heavy";
     src: url("./assets/fonts/Futura_heavy.otf") format('opentype');
 }
+
+* {
+    transition: all 0.25s ease-out;
+}

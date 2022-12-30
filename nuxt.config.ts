@@ -6,6 +6,10 @@ export default defineNuxtConfig({
             meta: [
                 { charset: 'utf-8' },
                 { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+                { hid: 'description', name: 'description', content: 'Nevra Studio' },
+                { hid: 'og:title', property: 'og:title', content: 'nevra studio' },
+                { hid: 'og:description', property: 'og:description', content: 'Nevra Studio - Interior Design' },
+                { hid: 'og:image', property: 'og:image', content: 'icon.png' }
             ]
         }
     },
